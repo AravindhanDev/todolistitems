@@ -1,0 +1,121 @@
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #6495ed;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #cac531;
+	background: -webkit-linear-gradient(to left, #f3f9a7, #cac531);
+	background: linear-gradient(to left, #f3f9a7, #cac531);
+}
+
+.remove {
+	margin-top: 13px;
+	color: #ffaa4c;
+	border: none;
+	font-size: 1.1rem;
+	background: none;
+	margin-left: 1rem;
+}
+
+ul {
+	border-radius: 20px;
+	list-style: none;
+	text-align: left;
+	line-height: 35px;
+	font-size: 1.4rem;
+	background-color: #ffffff;
+	background-image: url('https://www.transparenttextures.com/patterns/worn-dots.png');
+}
+
+li {
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#wrapper {
+	color: #888;
+	width: 30%;
+	margin: 3rem auto;
+	height: 100%;
+	border-radius: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 2rem;
+	font-weight: 900;
+	color: #555;
+}
+
+#task {
+	font-size: 1.4rem;
+	margin: 2rem 1.2rem;
+	padding: 0.5rem;
+	border-radius: 6px;
+	color: #666;
+	border: none;
+	box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.2),
+		-2px -2px 20px rgba(255, 255, 255, 0.2);
+}
+
+#task:focus {
+	outline: none;
+}
+
+#add {
+	font-size: 1.4rem;
+	padding: 0.5rem 0.7rem;
+	background-color: #ffaa4c;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	margin-left: 2rem;
+	margin-bottom: 1.4rem;
+}
+
+#todos {
+	padding-bottom: 0.8rem;
+}
+
+@media (max-width: 1300px) {
+	#wrapper {
+		width: 80%;
+	}
+}
+
+@media (max-width: 500px) {
+	#wrapper {
+		width: 98%;
+	}
+
+	#task {
+		font-size: 1.2rem;
+		margin: 2rem 0;
+		padding: 0.5rem;
+	}
+
+	#add {
+		font-size: 1.2rem;
+		padding: 0.5rem 0.6rem;
+		margin-left: 0.7rem;
+	}
+}
+
+@media (max-width: 350px) {
+	#task {
+		font-size: 0.9rem;
+	}
+	#add {
+		font-size: 0.9rem;
+	}
+}
