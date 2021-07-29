@@ -99,13 +99,13 @@ h2 {
 	}
 
 	#task {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		margin: 2rem 0;
 		padding: 0.5rem;
 	}
 
 	#add {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		padding: 0.5rem 0.6rem;
 		margin-left: 0.7rem;
 	}
@@ -113,9 +113,9 @@ h2 {
 
 @media (max-width: 350px) {
 	#task {
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 	#add {
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 }
