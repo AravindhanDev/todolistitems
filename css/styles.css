@@ -99,15 +99,15 @@ h2 {
 	}
 
 	#task {
-		font-size: 1.3rem;
-		margin: 2rem 0.2rem;
+		font-size: 1.2rem;
+		margin: 2rem 0.5rem;
 		padding: 0.5rem;
 	}
 
 	#add {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		padding: 0.5rem 0.6rem;
-		margin-left: 0.6rem;
+		margin-left: 0.5rem;
 	}
 }
 
