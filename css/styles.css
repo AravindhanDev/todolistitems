@@ -100,14 +100,14 @@ h2 {
 
 	#task {
 		font-size: 1.3rem;
-		margin: 2rem 0;
+		margin: 2rem 0.2rem;
 		padding: 0.5rem;
 	}
 
 	#add {
 		font-size: 1.3rem;
 		padding: 0.5rem 0.6rem;
-		margin-left: 0.7rem;
+		margin-left: 0.6rem;
 	}
 }
 
